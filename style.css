@@ -1,0 +1,98 @@
+/* Colors and fonts */
+body{
+	background: rgb(245, 255, 250);
+	color: rgb(9, 82, 40);
+	font-family: 'Lora', serif;
+	font-size: 16px;
+	font-weight: lighter;
+}
+
+h1, h2, h3 {
+	font-family: 'Roboto', sans-serif;
+}
+
+h1{
+	color: rgb(9, 82, 40);
+	font-size: 32px;
+	font-weight: 900;
+}
+
+h2{
+	color: rgb(9, 82, 40);
+	font-size: 20px;
+	font-weight: lighter;
+	font-weight: 500;
+}
+
+a {
+	font-family: 'Roboto', sans-serif;
+	text-decoration: none;
+	color: rgb(9, 106, 9);
+	font-weight: 600;
+	font-size: 16px;
+}
+a:hover {
+	color: rgb(143, 188, 143);
+}
+
+/* Custom design with class (99% of your design) */
+.container {
+	width: 700px;
+	margin: 40px auto;
+}
+
+@media (max-width: 760px) {
+	.container {
+		width: 600px;	
+	}
+}
+
+@media (max-width: 500px) {
+	.container {
+		width: 400px;	
+	}
+}
+
+.card-white {
+	background-color: white;
+	padding: 40px;
+	box-shadow: 0px 10px 30px rgba(0,0,0,0.1);
+	border radius: 4px;
+	margin: 20px 0px;
+	text-align: center;
+}
+
+.img-circle {
+	border-radius: 50%;
+}
+
+.btn-blue {
+	background-color: #006400;
+	color: white;
+	padding: 15px 20px;
+	border-radius: 4px;
+}
+
+.btn-blue:hover {
+	background-color: black;
+	color: white;
+}
+.list-line i {
+	display: inline;
+	padding: 10px;
+}
+.list-line i {
+	font-size: 50px;
+	color: rgb(230, 230, 230);
+}
+.list-line i:hover {
+	font-size: 50px;
+	color: black;
+}
+
+/* Design adjustments using id (1% design remaining) */
+#introduction p {
+	margin-bottom: 40px;
+}
+
+
